@@ -1,5 +1,6 @@
- 
-      
+ <?php $img_url = base_url() . "assets/images/"; ?>
+
+
     <section id="introduction" class="tm-section-pad-top">
       
 
@@ -19,7 +20,7 @@
 
           <div class="card-deck">
   <div class="card">
-    <img class="card-img-top" src="assets/images/jazz.jpg" alt="Card image cap">
+   <img src="<?php echo $img_url . "jazz.jpg" ?>" class="card-img-top" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Jazz orchastra</h5>
       <p class="card-text">This Jazz band will be playing in  Lit on the 21/06/2021 at 8:00PM.</p>
@@ -29,7 +30,7 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="assets/images/saxophone.jpg" alt="Card image cap">
+    <img src="<?php echo $img_url . "saxophone.jpg" ?>" class="card-img-top" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">A night for saxophone ft Amy Walsh</h5>
       <p class="card-text">Amy Walsh will be playing on our home stage in campus for people see on the 14/05/2021 at 9:00PM.</p>
@@ -39,7 +40,7 @@
     </div>
       </div>
   <div class="card">
-    <img class="card-img-top" src="assets/images/saxphoneBand.jpg" alt="Card image cap">
+    <img src="<?php echo $img_url . "saxphoneBand.jpg" ?>" class="card-img-top" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Saxphone band</h5>
       <p class="card-text">This band will be playing in the lime green thearter in MaryI on the 18/07/2021 at 5:00PM</p>
@@ -51,7 +52,7 @@
 </div>
                <div class="card-deck">
   <div class="card">
-    <img class="card-img-top" src="assets/images/main_page2.jpg" alt="Card image cap">
+    <img src="<?php echo $img_url . "main_page2.jpg" ?>" class="card-img-top" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Jazz orchastra</h5>
       <p class="card-text">This Jazz band will be playing in  Lit on the 21/06/2021 at 8:00PM.</p>
@@ -61,7 +62,7 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="assets/images/main_page11.jpg" alt="Card image cap">
+   <img src="<?php echo $img_url . "main_page11.jpg" ?>" class="card-img-top" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">A night for saxophone ft Amy Walsh</h5>
       <p class="card-text">Amy Walsh will be playing on our home stage in campus for people see on the 14/05/2021 at 9:00PM.</p>
@@ -71,7 +72,7 @@
     </div>
       </div>
   <div class="card">
-    <img class="card-img-top" src="assets/images/theater.jpg" alt="Card image cap">
+    <img src="<?php echo $img_url . "theater.jpg" ?>" class="card-img-top" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Saxphone band</h5>
       <p class="card-text">This band will be playing in the lime green thearter in MaryI on the 18/07/2021 at 5:00PM</p>
@@ -83,7 +84,7 @@
 </div>
                <div class="card-deck">
   <div class="card">
-    <img class="card-img-top" src="assets/images/saxphoneBand.jpg" alt="Card image cap">
+    <img src="<?php echo $img_url . "saxphoneBand.jpg" ?>" class="card-img-top" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Jazz orchastra</h5>
       <p class="card-text">This Jazz band will be playing in  Lit on the 21/06/2021 at 8:00PM.</p>
@@ -93,7 +94,7 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="assets/images/the-town-01.jpg" alt="Card image cap">
+    <img src="<?php echo $img_url . "the-town-01.jpg" ?>" class="card-img-top" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">A night for saxophone ft Amy Walsh</h5>
       <p class="card-text">Amy Walsh will be playing on our home stage in campus for people see on the 14/05/2021 at 9:00PM.</p>
@@ -103,7 +104,7 @@
     </div>
       </div>
   <div class="card">
-    <img class="card-img-top" src="assets/images/the-town-bg-02.jpg" alt="Card image cap">
+    <img src="<?php echo $img_url . "the-town-01.jpg" ?>" class="card-img-top" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Saxphone band</h5>
       <p class="card-text">This band will be playing in the lime green thearter in MaryI on the 18/07/2021 at 5:00PM</p>
@@ -122,7 +123,6 @@
 
   
    
-  
 
 
 

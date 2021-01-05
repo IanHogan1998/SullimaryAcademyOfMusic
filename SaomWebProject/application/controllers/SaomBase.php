@@ -119,7 +119,33 @@ class SaomBase extends CI_Controller {
 
         $this->load->view('layout', $view_data);
     }
+     public function manageStudent() {
 
+        $view_data = array(
+            'content' => $this->load->view('content/manageStudent', null, true)
+        );
+
+        $this->load->view('layout', $view_data);
+    }
+
+   function DeleteEntry() {
+       $this->load->model('SaomModel');
+        //This method fills the select box with contacts names on the 
+        //Select option list for drop down on SelectEntry View. It then renders 
+        //the SelecEntry view with the dropdown list values 
+        //Select all contacts in the addressbook
+        $data['display_block'] = $this->SaomModel->selectContacts();
+
+        //Render the View SelectEntry with the contact list.            
+        $this->load->view('DeleteEntry', $data);
+    }
+
+    function DeleteSelectedContact() {
+        $this->load->model("SaomModel");
+        $this->SaomModel->DeleteContact($this->input->post('master_id'));
+        $data['display_block'] = $this->SaomModel->selectContacts();
+        $this->load->view('DeleteEntry', $data);
+    }
 
     function Logout() {
         unset($_SESSION['loggedIn']);

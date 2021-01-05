@@ -116,8 +116,7 @@
                     
                 </li>
                 <li class="has-subnav">
-                    <a href="manageStudent.html">
-                       <i class="fa fa-list fa-2x"></i>
+                    <a href="<?php echo site_url('SaomBase/manageStudent');?>">
                         <span class="nav-text">
                             Manage Student
                         </span>

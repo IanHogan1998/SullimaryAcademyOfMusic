@@ -7,19 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-   <!--<?php // echo link_tag("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");?> -->
+   <?php echo link_tag("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");?> 
     
     <title>Sullimar Academy of Music</title>
     
-    <!-- Bootstrap core CSS -->
-     <!--<?php // echo link_tag("assets/vendor/bootstrap/css/bootstrap.min.css");?>-->
+     <?php echo link_tag("assets/css/bootstrap.min.css");?>
+     <?php echo link_tag("assets/vendor/bootstrap/css/bootstrap.min.css");?>
 
-    <!-- Additional CSS Files -->
-    <!-- <?php // echo link_tag("assets/css/fontawesome.css");?>-->
-     <!--<?php // echo link_tag("assets/css/SOAM.css");?>-->
-     <!--<?php // echo link_tag("assets/css/owl.css");?>-->
-     <!-- <?php // echo link_tag("assets/css/lightbox.css");?> -->
-
+     <?php echo link_tag("assets/css/fontawesome.css");?>
+     <?php echo link_tag("assets/css/SOAM.css");?>
+     <?php echo link_tag("assets/css/owl.css");?>
+     <?php echo link_tag("assets/css/lightbox.css");?> 
+     <?php echo link_tag("assets/css/style.css");?>
+  
+ 
 
   </head>
 

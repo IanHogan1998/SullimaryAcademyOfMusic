@@ -1,10 +1,10 @@
-
+ <?php $img_url = base_url() . "assets/images/"; ?>
 
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
       
-          <img  src="assets/images/main_page3.jpg"/>
-     
+       
+     <img src="<?php echo $img_url . "main_page3.jpg" ?>">
 
       <div class="video-overlay header-text">
           <div class="caption">
@@ -86,7 +86,8 @@
               <article id='tabs-1'>
                 <div class="row">
                   <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-01.png" alt="">
+                    
+                    <img src="<?php echo $img_url . "choose-us-image-01.png" ?>" alt="">
                   </div>
                   <div class="col-md-6">
                     <h4>Best Education</h4>
@@ -97,7 +98,9 @@
               <article id='tabs-2'>
                 <div class="row">
                   <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-02.png" alt="">
+                  
+                  <img src="<?php echo $img_url . "choose-us-image-02.png" ?>" alt="">
+                
                   </div>
                   <div class="col-md-6">
                     <h4>Top Level</h4>
@@ -108,7 +111,8 @@
               <article id='tabs-3'>
                 <div class="row">
                   <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-03.png" alt="">
+                      <img src="<?php echo $img_url . "choose-us-image-03.png" ?>" alt="">
+                
                   </div>
                   <div class="col-md-6">
                     <h4>Quality Meeting</h4>
@@ -135,7 +139,8 @@
         </div>
         <div class="owl-carousel owl-theme">
           <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="Course #1">
+                     <img src="<?php echo $img_url . "courses-01.jpg" ?>" alt="Course #1">
+          
             <div class="down-content">
               <h4>Course</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -146,7 +151,8 @@
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-02.jpg" alt="Course #2">
+               <img src="<?php echo $img_url . "courses-02.jpg" ?>" alt="Course #2">
+          
             <div class="down-content">
               <h4>Course</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -157,7 +163,8 @@
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-03.jpg" alt="Course #3">
+                  <img src="<?php echo $img_url . "courses-03.jpg" ?>" alt="Course #3">
+         
             <div class="down-content">
               <h4>Course</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -168,7 +175,8 @@
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-04.jpg" alt="Course #4">
+                     <img src="<?php echo $img_url . "courses-04.jpg" ?>" alt="Course #4">
+           
             <div class="down-content">
               <h4>Course</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -179,7 +187,7 @@
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-05.jpg" alt="">
+           <img src="<?php echo $img_url . "courses-05.jpg" ?>" alt="Course #5">
             <div class="down-content">
               <h4>Course</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -190,7 +198,7 @@
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="">
+           <img src="<?php echo $img_url . "courses-01.jpg" ?>" alt="Course #1">
             <div class="down-content">
               <h4>Course</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -201,7 +209,7 @@
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-02.jpg" alt="">
+           <img src="<?php echo $img_url . "courses-02.jpg" ?>" alt="Course #2">
             <div class="down-content">
               <h4>Course</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -212,7 +220,7 @@
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-03.jpg" alt="">
+        <img src="<?php echo $img_url . "courses-03.jpg" ?>" alt="Course #3">
             <div class="down-content">
               <h4>Course</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -223,7 +231,7 @@
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-04.jpg" alt="">
+           <img src="<?php echo $img_url . "courses-04.jpg" ?>" alt="Course #4">
             <div class="down-content">
               <h4>Course</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -234,7 +242,7 @@
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-05.jpg" alt="">
+            <img src="<?php echo $img_url . "courses-05.jpg" ?>" alt="Course #5">
             <div class="down-content">
               <h4>Course</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -245,7 +253,7 @@
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="">
+          <img src="<?php echo $img_url . "courses-01.jpg" ?>" alt="Course #1">
             <div class="down-content">
               <h4>Course</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
